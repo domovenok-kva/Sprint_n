@@ -1,0 +1,13 @@
+class DataInfoTariff:
+    work_tariff_title = "Рабочий"
+    work_tariff_descrip = "Для деловых особ, которых отвлекают"
+    sleepy_tariff_title = "Сонный"
+    sleepy_tariff_descrip = "Для тех, кто не выспался"
+    vacation_tariff_title = "Отпускной"
+    vacation_tariff_descrip = "Если пришла пора отдохнуть"
+    talkative_tariff_title = "Разговорчивый"
+    talkative_tariff_descrip = "Если мысли не выходят из головы"
+    comforting_tariff_title  = "Утешительный"
+    comforting_tariff_descrip = "Если хочется свернуться калачиком"
+    glossy_tariff_title = "Глянцевый"
+    glossy_tariff_descrip = "Если нужно блистать"
