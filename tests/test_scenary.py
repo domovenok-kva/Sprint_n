@@ -40,7 +40,7 @@ class TestScenary:
         taxi_pg.click_on_requirements_bttn()
         taxi_pg.click_on_switcher_bttn()
         taxi_pg.click_on_order_bttn()
-        time.sleep(40)
+        taxi_pg.wait_element()
         assert taxi_pg.check_title_in_fin_order_wndw()
         assert taxi_pg.car_nuber_is_visible()
         assert taxi_pg.tariff_img_is_visible()
@@ -61,7 +61,7 @@ class TestScenary:
         taxi_pg.click_on_requirements_bttn()
         taxi_pg.click_on_switcher_bttn()
         taxi_pg.click_on_order_bttn()
-        time.sleep(40)
+        taxi_pg.wait_element()
         taxi_pg.click_on_fin_details_burger()
         fin_price = taxi_pg.get_fin_price()
         assert fin_price == price
@@ -78,7 +78,7 @@ class TestScenary:
         taxi_pg.click_on_requirements_bttn()
         taxi_pg.click_on_switcher_bttn()
         taxi_pg.click_on_order_bttn()
-        time.sleep(40)
+        taxi_pg.wait_element()
         taxi_pg.click_on_fin_cancel_bttn()
         assert route_pg.the_start_point_is_visible()
 
